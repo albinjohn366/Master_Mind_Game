@@ -115,5 +115,3 @@ def model_allot(knowledge, doubt, symbols, model):
     return (model_allot(knowledge, doubt, remaining, module_true) and
             model_allot(knowledge, doubt, remaining, module_false))
 
-
-print ('helloo')
