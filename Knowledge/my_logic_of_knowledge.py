@@ -114,18 +114,3 @@ def model_allot(knowledge, doubt, symbols, model):
 
     return (model_allot(knowledge, doubt, remaining, module_true) and
             model_allot(knowledge, doubt, remaining, module_false))
-
-
-# if __name__ == '__main__':
-#     pass
-# rain = Symbol("rain")
-# hagrid = Symbol("hagrid")
-# dumbledore = Symbol("dumbledore")
-#
-# knowledge = And(
-#     Implication(Not(rain), hagrid),
-#     Or(hagrid, dumbledore),
-#     Not(And(hagrid, dumbledore)),
-#     hagrid)
-#
-# print(model_check(knowledge, rain))
